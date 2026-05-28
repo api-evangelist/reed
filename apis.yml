@@ -1,0 +1,32 @@
+aid: reed
+name: Reed
+description: "Job board aggregator"
+url: https://www.reed.co.uk/developers
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: Reed
+    description: "Job board aggregator"
+    humanURL: https://www.reed.co.uk/developers
+    baseURL: https://www.reed.co.uk/developers
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://www.reed.co.uk/developers
+common:
+  - type: Website
+    url: https://www.reed.co.uk/developers
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
